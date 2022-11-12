@@ -189,7 +189,7 @@ namespace FreeAdobe
 
         private void btnLogo_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://bestyize.github.io/adobe/freeadobe/");
+            Process.Start("https://nuozhen.top/freeadobe/");
         }
         private static StartConfigBean startConfigBean;
         private void startCheck() {

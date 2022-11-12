@@ -58,7 +58,7 @@
                     <ImageBrush ImageSource="resources/minus.png"/>
                 </Button.Background>
             </Button>
-            <Label Content="@从来不想-亦泽" HorizontalAlignment="Left" Margin="430,560,0,20" VerticalAlignment="Top" Padding="0"/>
+            <Label Content="@从来不想-亦泽 | 复活版by Aunt Studio" HorizontalAlignment="Left" Margin="379,563,0,0" VerticalAlignment="Top" Padding="0"/>
             <Button Content="新版本" FontWeight="Bold" Foreground="#2C974B" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="794,554,0,0" VerticalAlignment="Top" Width="75" Height="33" Click="btnLogo_Click"/>
 
 

@@ -21,6 +21,8 @@ namespace FreeAdobe.src
             if (patchInfos == null)
             {
                 patchInfos = new List<PatchInfo>();
+                initPatchInfo("2023");
+                initPatchInfo("2022");
                 initPatchInfo("2021");
                 initPatchInfo("2020");
                 initPatchInfo("2019");
@@ -32,6 +34,8 @@ namespace FreeAdobe.src
         public static List<PatchInfo> loadProductPatchInfo(AdobeProduct productName,string version) {
             if (patchInfos == null) {
                 patchInfos = new List<PatchInfo>();
+                initPatchInfo("2023");
+                initPatchInfo("2022");
                 initPatchInfo("2021");
                 initPatchInfo("2020");
                 initPatchInfo("2019");
@@ -55,7 +59,7 @@ namespace FreeAdobe.src
             patchInfos.Add(new PatchInfo(AdobeProduct.Dreamweaver, "Dreamweaver", version, "C:/Program Files/Adobe/Adobe Dreamweaver " + version + "/Dreamweaver.exe", "C:/Program Files/Adobe/Adobe Dreamweaver " + version + "/Dreamweaver.exe", "Dreamweaver.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.Illustrator, "Illustrator", version, "C:/Program Files/Adobe/Adobe Illustrator " + version + "/Support Files/Contents/Windows/Illustrator.exe", "C:/Program Files/Adobe/Adobe Illustrator " + version + "/Support Files/Contents/Windows/Illustrator.exe", "Illustrator.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.LightroomClassic, "LightroomClassic", version, "C:/Program Files/Adobe/Adobe Lightroom Classic/Lightroom.exe", "C:/Program Files/Adobe/Adobe Lightroom Classic/Lightroom.exe", "Lightroom.exe", targetByteStr, newByteStr));
-            patchInfos.Add(new PatchInfo(AdobeProduct.MediaEncoder, "MediaEncoder", version, "C:/Program Files/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "C:/Program Files/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "Character Animator.exe", targetByteStr, newByteStr));
+            patchInfos.Add(new PatchInfo(AdobeProduct.MediaEncoder, "MediaEncoder", version, "C:/Program Files/Adobe/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "C:/Program Files/Adobe/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "Character Animator.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.Photoshop, "Photoshop", version, "C:/Program Files/Adobe/Adobe Photoshop " + version + "/Photoshop.exe", "C:/Program Files/Adobe/Adobe Photoshop " + version + "/Photoshop.exe", "Photoshop.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.Prelude, "Prelude", version, "C:/Program Files/Adobe/Adobe Prelude " + version + "/Registration.dll", "C:/Program Files/Adobe/Adobe Prelude " + version + "/Adobe Prelude.exe", "Registration.dll", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.PremierePro, "PremierePro", version, "C:/Program Files/Adobe/Adobe Premiere Pro " + version + "/Registration.dll", "C:/Program Files/Adobe/Adobe Premiere Pro " + version + "/Adobe Premiere Pro.exe", "Registration.dll", targetByteStr, newByteStr));

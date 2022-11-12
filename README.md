@@ -1,6 +1,6 @@
 # FreeAdobe
  
  
-具体介绍：[https://bestyize.github.io/adobe/freeadobe/](https://bestyize.github.io/adobe/freeadobe/)
+具体介绍：[https://nuozhen.top/freeadobe/](https://nuozhen.top/freeadobe/)
 
-![FreeAdobe](https://bestyize.github.io/adobe/freeadobe/img/freeadobe_main_form.png)
+![FreeAdobe](https://nuozhen.top/freeadobe/img/freeadobe_main_form.png)

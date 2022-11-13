@@ -1,6 +1,6 @@
-# Free Adobe 1.1（2022-11-12更新）
+# Free Adobe 1.2（2022-11-13更新）
 
-更新内容-修复Bridge 2021离线且未登录状态下验证的问题
+更新内容-修复了帮助网址大小写错误问题
 
 @亦泽同学 | 复活版 by Aunt Studio(@Aunt_nuozhen)
 
@@ -34,7 +34,7 @@ FreeAdobe是一款Adobe优化软件，可以优化Adobe CC系列的各种软件�
 
 ## 更新地址
 
-最新版本的FreeAdobe下载地址【支持adobe 2019 2020 2021全家桶】：
+最新版本的FreeAdobe下载地址【支持adobe 2019 2020 2021 2022 2023全家桶】：
 
 [Github Releases](https://github.com/yangnuozhen/FreeAdobe/releases)
 

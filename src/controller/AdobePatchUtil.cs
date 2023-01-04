@@ -66,7 +66,7 @@ namespace FreeAdobe.src
 
             patchInfos.Add(new PatchInfo(AdobeProduct.InCopy, "InCopy", version, "C:/Program Files/Adobe/Adobe InCopy "+version+"/Public.dll", "C:/Program Files/Adobe/Adobe InCopy " + version + "/InCopy.exe", "Public.dll", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.InDesign, "InDesign", version, "C:/Program Files/Adobe/Adobe InDesign " + version + "/Public.dll", "C:/Program Files/Adobe/Adobe InDesign " + version + "/InDesign.exe", "Public.dll", targetByteStr, newByteStr));
-            patchInfos.Add(new PatchInfo(AdobeProduct.AcrobatDC, "AcrobatDC", version, "C:/Program Files (x86)/Adobe/Acrobat DC/Acrobat/Acrobat.dll", "C:/Program Files (x86)/Adobe/Acrobat DC/Acrobat/Acrobat.exe", "Acrobat.dll", acrobatTargetByte, acrobatNewByte));
+            patchInfos.Add(new PatchInfo(AdobeProduct.AcrobatDC, "AcrobatDC", version, "C:/Program Files/Adobe/Acrobat DC/Acrobat/Acrobat.dll", "C:/Program Files/Adobe/Acrobat DC/Acrobat/Acrobat.exe", "Acrobat.dll", acrobatTargetByte, acrobatNewByte));
         }
 
         public static bool patchProduct(AdobeProduct product, string version) {

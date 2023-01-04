@@ -8,7 +8,7 @@
         WindowStyle="None"
         ResizeMode="NoResize"
         OpacityMask="White"
-        Title="MainWindow" Height="600" Width="900" Background="Transparent">
+        Title="Re:Free Adobe" Height="600" Width="900" Background="Transparent">
     <Grid  Height="600" Width="900" AllowDrop="True" MouseLeftButtonDown="MoveMainWindow">
         <Grid Background="#F7F7F7">
             <Grid Background="#303030" Margin="0,0,820,0" Width="80">
@@ -47,7 +47,7 @@
                 </ListBox>
 
             </Grid>
-            <Label FontSize="16" Content="Free Adobe 1.2" HorizontalAlignment="Left" Margin="427,0,0,0" VerticalAlignment="Top"/>
+            <Label FontSize="16" Content="Re:Free Adobe 1.3" HorizontalAlignment="Left" Margin="415,2,0,0" VerticalAlignment="Top"/>
             <Button x:Name="btnClose" Content="" HorizontalAlignment="Left" Margin="878,8,0,0" VerticalAlignment="Top" Width="15" BorderThickness="0" Padding="0" Height="15" Click="btnClose_Click">
                 <Button.Background>
                     <ImageBrush ImageSource="resources/close.png"/>

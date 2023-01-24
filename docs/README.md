@@ -1,6 +1,6 @@
-# Free Adobe 1.2（2022-11-13更新）
+# Re:Free Adobe 1.3（2023-1-4更新）
 
-更新内容-修复了帮助网址大小写错误问题
+更新内容-修复了Acrobat DC的文件路径问题
 
 @亦泽同学 | 复活版 by Aunt Studio(@Aunt_nuozhen)
 
@@ -10,9 +10,11 @@
 
 FreeAdobe是一款Adobe优化软件，可以优化Adobe CC系列的各种软件，支持2019系列、2020系列、2021系列、2022系列、2023系列
 
-例如 Photoshop 2023、Photoshop 2022、Photoshop 2021、Photoshop 2020、Photoshop 2019、Acrobat Pro DC 2019、Acrobat Pro DC 2020（目前Acrobat最新版是2020，出新版本依然可以通用）等所有2019版后的版本。
+例如 Photoshop 2023、Photoshop 2022、Photoshop 2021、Photoshop 2020、Photoshop 2019、Acrobat Pro DC 2019、Acrobat Pro DC 2020等所有2019版后的版本。
 
 优化之后即可解除授权限制，无限使用。而且FreeAdobe支持软件升级，在升级之后再按照使用方式操作一遍即可随时享用最新版本。
+
+>目前，Acrobat 2023版本无法使用本软件破解，请另寻途径。如有新方法将第一时间更新。
 
 ## 使用方式
 

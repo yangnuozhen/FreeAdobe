@@ -1,6 +1,6 @@
-# Re:Free Adobe 1.3（2023-1-4更新）
+# Re:Free Adobe 1.4（2023-5-4更新）
 
-更新内容-修复了Acrobat DC的文件路径问题
+更新内容-修复仓库更名
 
 @亦泽同学 | 复活版 by Aunt Studio(@Aunt_nuozhen)
 

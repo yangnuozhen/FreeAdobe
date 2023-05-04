@@ -189,7 +189,7 @@ namespace FreeAdobe
 
         private void btnLogo_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://nuozhen.top/FreeAdobe/");
+            Process.Start("https://nuozhen.top/ReFreeAdobe/");
         }
         private static StartConfigBean startConfigBean;
         private void startCheck() {

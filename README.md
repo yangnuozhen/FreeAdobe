@@ -8,6 +8,10 @@ New-NetFirewallRule -DisplayName “Photoshop 2023 Patch” -Direction Outbound 
 ```
 
 ---
+
+新版本V2.0即将在我中考完后上线，敬请期待。
+
+---
  
 具体介绍：[Re:FreeAdobe](https://nuozhen.top/ReFreeAdobe/)
 

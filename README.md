@@ -6,7 +6,7 @@
 ```Powershell
 New-NetFirewallRule -DisplayName “Photoshop 2023 Patch” -Direction Outbound -Program "C:\Program Files\Adobe\Adobe Photoshop 2023\Photoshop.exe" -RemoteAddress LocalSubnet -Action Block
 ```
-
+>Tip: There will be a feature update that can automatic fix this problem by running that comand.
 ---
 
 新版本V2.0即将在我中考完后上线，敬请期待。

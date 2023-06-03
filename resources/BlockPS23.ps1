@@ -1,0 +1,1 @@
+New-NetFirewallRule -DisplayName "Adobe Photoshop Patch" -Direction Outbound -Action Block -Program "C:\Program Files\Adobe\Adobe Photoshop 2023\Photoshop.exe" -Description "ReFreeAdobe Photoshop 2023 Patch. DO NOT DELETE OR EDIT IT!"

@@ -16,3 +16,16 @@ New-NetFirewallRule -DisplayName “Photoshop 2023 Patch” -Direction Outbound 
 具体介绍：[Re:FreeAdobe](https://nuozhen.top/ReFreeAdobe/)
 
 ![FreeAdobe](https://nuozhen.top/ReFreeAdobe/img/freeadobe_main_form.png)
+
+---
+
+## License
+
+本项目源代码遵循GPL V3协议。
+
+⚠不建议作为商业使用⚠
+一切商业使用的后果由您自行承担。
+
+本仓库提供者、贡献者、所有者不为您使用本软件的任何行为承担责任。
+
+**请支持正版.**

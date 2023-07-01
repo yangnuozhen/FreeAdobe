@@ -2,8 +2,8 @@
 name: Bug 反馈（简体中文）
 about: 创建一个Bug反馈
 title: "[Bug 反馈]"
-labels: ''
-assignees: ''
+labels: bug
+assignees: yangnuozhen
 
 ---
 

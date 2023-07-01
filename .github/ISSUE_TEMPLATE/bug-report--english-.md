@@ -2,8 +2,8 @@
 name: Bug report (English)
 about: Create a report to help us improve
 title: "[Bug Report]"
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: yangnuozhen
 
 ---
 

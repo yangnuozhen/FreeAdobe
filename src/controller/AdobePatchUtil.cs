@@ -1,11 +1,13 @@
-﻿using FreeAdobe.src.controller;
+﻿using ReFreeAdobe.src.controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
+using ReFreeAdobe.src;
 
-namespace FreeAdobe.src
+namespace ReFreeAdobe.src
 {
     public class AdobePatchUtil
     {
@@ -56,7 +58,7 @@ namespace FreeAdobe.src
             patchInfos.Add(new PatchInfo(AdobeProduct.Audition, "Audition", version, "C:/Program Files/Adobe/Adobe Audition " + version + "/AuUI.dll", "C:/Program Files/Adobe/Adobe Audition " + version + "/Adobe Audition.exe", "AuUI.dll", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.Bridge, "Bridge", version, "C:/Program Files/Adobe/Adobe Bridge " + version + "/Bridge.exe", "C:/Program Files/Adobe/Adobe Bridge " + version + "/Bridge.exe", "Bridge.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.CharacterAnimator, "CharacterAnimator", version, "C:/Program Files/Adobe/Adobe Character Animator " + version + "/Support Files/Character Animator.exe", "C:/Program Files/Adobe/Adobe Character Animator " + version + "/Support Files/Character Animator.exe", "Character Animator.exe", targetByteStr, newByteStr));
-            patchInfos.Add(new PatchInfo(AdobeProduct.Dreamweaver, "Dreamweaver", version, "C:/Program Files/Adobe/Adobe Dreamweaver " + version + "/Dreamweaver.exe", "C:/Program Files/Adobe/Adobe Dreamweaver " + version + "/Dreamweaver.exe", "Dreamweaver.exe", targetByteStr, newByteStr));
+            patchInfos.Add(new PatchInfo(AdobeProduct.Dreamweaver, "Dreamweaver", "2021", "C:/Program Files/Adobe/Adobe Dreamweaver " + "2021" + "/Dreamweaver.exe", "C:/Program Files/Adobe/Adobe Dreamweaver " + "2021" + "/Dreamweaver.exe", "Dreamweaver.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.Illustrator, "Illustrator", version, "C:/Program Files/Adobe/Adobe Illustrator " + version + "/Support Files/Contents/Windows/Illustrator.exe", "C:/Program Files/Adobe/Adobe Illustrator " + version + "/Support Files/Contents/Windows/Illustrator.exe", "Illustrator.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.LightroomClassic, "LightroomClassic", version, "C:/Program Files/Adobe/Adobe Lightroom Classic/Lightroom.exe", "C:/Program Files/Adobe/Adobe Lightroom Classic/Lightroom.exe", "Lightroom.exe", targetByteStr, newByteStr));
             patchInfos.Add(new PatchInfo(AdobeProduct.MediaEncoder, "MediaEncoder", version, "C:/Program Files/Adobe/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "C:/Program Files/Adobe/Adobe Media Encoder " + version + "/Adobe Media Encoder.exe", "Character Animator.exe", targetByteStr, newByteStr));
@@ -75,8 +77,9 @@ namespace FreeAdobe.src
             foreach (PatchInfo info in productPatchInfo) {
                 //succ&=ByteHelper.replaceByte(info.InstallPath,info.TargetByteStr,info.NewByteStr);
                 succ &= StrongByteHelper.replaceByte(info.InstallPath, info.TargetByteStr, info.NewByteStr);
-            }
-            return succ;
+                
+                }
+                return succ;
         }
     }
 }

@@ -21,3 +21,7 @@ fix: version of Dreamweaver (#3)
 feat: ui improve
 
 feat: add license check bypass via editing hosts file
+
+## 版本下载
+
+V2.0发布包下载: https://github.com/yangnuozhen/ReFreeAdobe/releases/download/V2.0/ReFreeAdobe_V2.0_Release.exe

@@ -12,13 +12,12 @@ namespace ReFreeAdobe.src
 {
     internal class BlockPSNetwork
     {
-        public static string BlockPsNetwork(string version , string BinPath)
+        public static string BlockPsNetwork()
         {
             string back;
             string resourceName = "ReFreeAdobe.resources.BlockPS23.ps1";
             string scriptPath = Path.GetTempFileName() + ".ps1";
 
-            // 从嵌入资源中获取.ps1文件内容
             using (Stream resourceStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
             {
                 using (StreamReader reader = new StreamReader(resourceStream))
@@ -27,11 +26,7 @@ namespace ReFreeAdobe.src
                     File.WriteAllText(scriptPath, reader.ReadToEnd());
                 }
             }
-
-            // 创建一个新的PowerShell进程
             Process process = new Process();
-
-            // 设置进程启动信息
             process.StartInfo.FileName = "powershell.exe";
             process.StartInfo.Arguments = $"-ExecutionPolicy Bypass -File \"{scriptPath}\"";
             process.StartInfo.Verb = "runas"; // 以管理员身份运行
@@ -39,11 +34,7 @@ namespace ReFreeAdobe.src
             process.StartInfo.RedirectStandardError = true;
             process.StartInfo.UseShellExecute = false;
             process.StartInfo.CreateNoWindow = true;
-
-            // 启动进程
             process.Start();
-
-            // 等待进程完成
             process.WaitForExit();
 
             // 读取输出信息

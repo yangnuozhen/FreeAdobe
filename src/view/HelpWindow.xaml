@@ -1,26 +1,27 @@
-﻿<Window x:Class="FreeAdobe.src.view.HelpWindow"
+﻿<Window x:Class="ReFreeAdobe.src.view.HelpWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:FreeAdobe.src.view"
+        xmlns:local="clr-namespace:ReFreeAdobe.src.view"
         mc:Ignorable="d"
         WindowStyle="None"
 
         ResizeMode="NoResize"
         OpacityMask="White"
-        Title="MainWindow" Height="300" Width="450" Background="Transparent">
-    <Grid Width="450" Height="300" Background="#F7F7F7" MouseLeftButtonDown="MoveWindow">
-        <Button x:Name="btnClose" Content="" HorizontalAlignment="Left" Margin="430,8,0,0" VerticalAlignment="Top" Width="15" BorderThickness="0" Padding="0" Height="15" Click="btnClose_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="/FreeAdobe;component/resources/close.png"/>
-            </Button.Background>
+        Title="MainWindow" Height="290" Width="450" Background="Transparent">
+    <Grid Background="#FF2D2D2D" MouseLeftButtonDown="MoveWindow">
+        <Button x:Name="btnClose" HorizontalAlignment="Left" Margin="430,8,0,0" VerticalAlignment="Top" Width="15" BorderThickness="0" Padding="0" Height="15" Click="btnClose_Click" Background="{x:Null}">
+            <StackPanel>
+                <Image Height="15" Width="15" Source="/resources/close.png"/>
+            </StackPanel>
+
 
         </Button>
-        
-        <Label x:Name="lbTitle" Content="帮助" HorizontalAlignment="Left" Margin="206,8,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="tbContent" HorizontalAlignment="Left" Margin="42,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="195" Width="364" Background="White" Focusable="True"/>
-        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Margin="276,262,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnOk_Click" />
-        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="99,262,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnCancel_Click"/>
+
+        <Label x:Name="lbTitle" Content="帮助" Margin="18,4,18,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Source Han Sans SC" FontWeight="Bold" Foreground="#FFE1E1E1" FontSize="14"/>
+        <TextBox x:Name="tbContent" HorizontalAlignment="Left" Margin="42,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="195" Width="364" Background="#FF404040" Focusable="True" FontFamily="Source Han Sans SC Medium" SelectionBrush="#FFDDDDDD" Foreground="White"/>
+        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Margin="276,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnOk_Click" FontFamily="Source Han Sans SC Normal" Background="#FF5B5B5B" Foreground="White" />
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="99,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnCancel_Click" FontFamily="Source Han Sans SC Normal" BorderBrush="#FFE3E3E3" Background="#FF5B5B5B" Foreground="White"/>
     </Grid>
 </Window>

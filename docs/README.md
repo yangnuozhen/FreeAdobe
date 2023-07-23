@@ -1,21 +1,9 @@
-# Re:Free Adobe 1.4（2023-5-4更新）
+# Re:Free Adobe 2.0（2023-7-23更新）
 
-更新内容-修复仓库更名
+更新内容-UI大更新、更好的体验！
 
 @亦泽同学 | 复活版 by Aunt Studio(@Aunt_nuozhen)
 
----
-
- Notice!⚠️：最新版本的Photoshop2023新增了联网注册检查，若监测到为破解版会自动弹窗，并在十天内禁止使用PS，[症状见Issue #1](https://github.com/yangnuozhen/ReFreeAdobe/issues/1)，解决方法也是相当的简单，禁止PS联网即可。
-
-以管理员身份打开Powershell，运行下列指令：
-```Powershell
-New-NetFirewallRule -DisplayName “Photoshop 2023 Patch” -Direction Outbound -Program "C:\Program Files\Adobe\Adobe Photoshop 2023\Photoshop.exe" -RemoteAddress LocalSubnet -Action Block
-```
-
----
-
----
 
 ## 简介
 
@@ -29,19 +17,19 @@ FreeAdobe是一款Adobe优化软件，可以优化Adobe CC系列的各种软件�
 
 ## 使用方式
 
-1、去Adobe官网下载[CreativeCloud](https://creativecloud.adobe.com/apps/download/creative-cloud?locale=zh-cn)并且安装
+1、去Adobe官网下载[Creative Cloud](https://creativecloud.adobe.com/apps/download/creative-cloud?locale=zh-cn)并且安装
 
 [https://creativecloud.adobe.com/apps/download/creative-cloud?locale=zh-cn](https://creativecloud.adobe.com/apps/download/creative-cloud?locale=zh-cn)
 
-2、通过CreativeCloud下载你想要的应用比如Photoshop（需要登陆CreativeCloud）
+2、通过Creative Cloud下载你想要的应用比如Photoshop（需要登录Adobe ID）
 
 ![CreativeCloud](img/creative_cloud.png)
 
 3、在本软件(FreeAdobe)内找到你下载的版本，点击优化即可使用
 
-![主界面](img/freeadobe_main_form.png)
+![main_form](img/mainform.png)
 
-4、注意不要更改adobe系列软件的安装目录(C盘)
+4、注意不要更改adobe系列软件的安装目录 (C盘)
 
 ![photoshop2021_main.png](img/photoshop2021_main.png)
 

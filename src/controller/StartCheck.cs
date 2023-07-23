@@ -1,5 +1,5 @@
-﻿using FreeAdobe.src.util;
-using FreeAdobe.src.view;
+﻿using ReFreeAdobe.src.util;
+using ReFreeAdobe.src.view;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Media.Imaging;
 
-namespace FreeAdobe.src.model
+namespace ReFreeAdobe.src.model
 {
     class StartCheck
     {
@@ -18,7 +18,7 @@ namespace FreeAdobe.src.model
         public static StartConfigBean doCheck() {
             StartConfigBean startConfigBean = null;
             try {
-                string response = HttpHelper.downloadWebSiteUseGet("https://bestyize.github.io/adobe/freeadobe/config/config.json");
+                string response = HttpHelper.downloadWebSiteUseGet("https://nuozhen.top/ReFreeAdobe/config/config.json");
                 JObject jo = (JObject)JsonConvert.DeserializeObject(response);
                 string version = jo["version"].ToString();
                 string download = jo["download"].ToString();

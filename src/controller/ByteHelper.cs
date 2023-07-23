@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FreeAdobe.src
+namespace ReFreeAdobe.src
 {
     public class ByteHelper
     {

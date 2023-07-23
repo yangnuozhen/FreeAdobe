@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FreeAdobe.src.model
+namespace ReFreeAdobe.src.model
 {
     public interface NotifyEventListener
     {

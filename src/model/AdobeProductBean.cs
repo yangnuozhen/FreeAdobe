@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FreeAdobe.src.model
+namespace ReFreeAdobe.src.model
 {
     public class AdobeProductBean
     {
@@ -29,6 +29,11 @@ namespace FreeAdobe.src.model
             this.desc = desc;
             this.detail = detail;
             this.LaunchPath = launchPath;
+
+            if(Name == "Photoshop 2023")
+            {
+                this.desc = "需要禁止联网";
+            }
         }
 
         public AdobeProduct Product { get => product; set => product = value; }

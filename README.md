@@ -1,4 +1,33 @@
 # Re:FreeAdobe
+
+公告: 如果您使用Clash for Windows等软件进行代理并且尝试破解PS 2023，请按此操作:
+
+此处以Clash for Windows为例。
+
+1. 打开设置
+2. 找到System Proxy 设置项
+3. 点击`Bypass Domain/IPNet` 右边的 Edit 按钮
+![image](https://github.com/yangnuozhen/ReFreeAdobe/assets/56541171/953afd7b-6f60-4801-afc0-b927cc6f6b22)
+![image](https://github.com/yangnuozhen/ReFreeAdobe/assets/56541171/c2b1f5bc-ccc4-4aed-a852-357f60a03969)
+
+4.它应该会打开一个Visual Studio Code或其它默认文本编辑器的窗口。
+![image](https://github.com/yangnuozhen/ReFreeAdobe/assets/56541171/fd8680ff-0ff8-451a-8569-3528aa08c272)
+
+5.在倒数第二行（<`local>`的上面）插入新行。
+![image](https://github.com/yangnuozhen/ReFreeAdobe/assets/56541171/f625b61e-9602-42a1-a5a8-d3db427fb866)
+
+6.填入
+```
+  - '*.adobe.io'
+```
+
+![image](https://github.com/yangnuozhen/ReFreeAdobe/assets/56541171/cbf7dfef-9d47-4bcb-aa07-a20fcc72c9a5)
+
+7.保存，关闭窗口。
+
+此时即使开着代理，也能正常阻止*.adobe.io的出站。
+
+---
  
 具体介绍：[Re:FreeAdobe](https://nuozhen.top/ReFreeAdobe/)
 

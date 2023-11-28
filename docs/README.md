@@ -1,6 +1,6 @@
-# Re:Free Adobe 2.0（2023-7-23更新）
+# Re:Free Adobe 2.1（2023-11-28更新）
 
-更新内容-UI大更新、更好的体验！
+更新内容-2024 Support
 
 @亦泽同学 | 复活版 by Aunt Studio(@Aunt_nuozhen)
 

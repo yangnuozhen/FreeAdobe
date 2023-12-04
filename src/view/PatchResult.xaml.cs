@@ -43,7 +43,7 @@ namespace ReFreeAdobe.src.view
             tbContent.Text = content;
             if(isSucc)
             {
-                string imagePath = "resources/success.png";
+                string imagePath = "/resources/success.png";
                 Uri imageUri = new Uri(imagePath, UriKind.Relative);
                 succImage.Source = new BitmapImage(imageUri);
             }

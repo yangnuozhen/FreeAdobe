@@ -51,7 +51,7 @@
                 </ListBox>
 
             </Grid>
-            <Label FontSize="16" Content="Re:Free Adobe V2.1" HorizontalAlignment="Left" Margin="415,2,0,0" VerticalAlignment="Top" FontFamily="Source Han Sans SC" FontWeight="Bold" Foreground="#FFCDCDCD"/>
+            <Label FontSize="16" Content="Re:Free Adobe V2.2" HorizontalAlignment="Left" Margin="415,2,0,0" VerticalAlignment="Top" FontFamily="Source Han Sans SC" FontWeight="Bold" Foreground="#FFCDCDCD"/>
             <Button x:Name="btnClose" HorizontalAlignment="Left" Margin="878,8,0,0" VerticalAlignment="Top" Width="15" BorderThickness="0" Padding="0" Height="15" Click="btnClose_Click" Background="{x:Null}">
 
                 <StackPanel Width="15" Height="15">

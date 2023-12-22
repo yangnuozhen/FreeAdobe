@@ -30,7 +30,6 @@ namespace FreeAdobe
     public partial class MainWindow : Window
     {
         
-        public static string PS23;
         private static List<PatchInfo> patchInfos;
         private List<AdobeProductBean> adobeProductBeans = new List<AdobeProductBean>();
         public MainWindow()
@@ -92,10 +91,10 @@ namespace FreeAdobe
                             patchResult.ShowDialog();
                         }
                         //https://github.com/yangnuozhen/ReFreeAdobe/issues/1
-                        if (bean.Name == "Photoshop 2023")
+                        if (bean.Name == "Photoshop 2023" || bean.Name == "Photoshop 2024")
                         {
-                            PS23 = bean.LaunchPath;
-                            HelpWindow helpWindow = new HelpWindow("Photoshop提示", "Photoshop 2023加入了内置的授权验证系统，会联网干预非正版软件的运作(症状请见https://github.com/yangnuozhen/ReFreeAdobe/issues/1)。\n" +
+                            
+                            HelpWindow helpWindow = new HelpWindow("Photoshop提示", "Photoshop 2023以上的版本加入了内置的授权验证系统，会联网干预非正版软件的运作(症状请见https://github.com/yangnuozhen/ReFreeAdobe/issues/1)。\n" +
                                 "我们将会尝试禁止Photoshop本体联网，并通过修改hosts文件的方式来绕过Adobe的联网正版检测。\n\n是否继续?", new HelperHandler("PSBN"));
                             helpWindow.Show();
                         }
@@ -214,7 +213,7 @@ namespace FreeAdobe
                 {
                     string Result;
                     Result = BlockPSNetwork.BlockPsNetwork();
-                    HelpWindow helpWindow = new HelpWindow("Photoshop提示", "已尝试设置。\n\n" + Result , new HelperHandler("PSBN"));
+                    HelpWindow helpWindow = new HelpWindow("Photoshop提示", "已尝试设置。\n\n" + Result , new HelperHandler("PSBNResult"));
                     helpWindow.Show();
                 }
 

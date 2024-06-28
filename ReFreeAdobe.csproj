@@ -155,14 +155,7 @@
     <EmbeddedResource Include="resources\BlockPS23.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <Resource Include="resources\SourceHanSansSC-Normal-Min.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="resources\SourceHanSansSC-Bold-Min.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Resource>
-    <Resource Include="src\view\SourceHanSansSC-Bold-Min.ttf" />
-    <Resource Include="resources\SourceHanSansSC-Medium-Min.ttf">
+    <Resource Include="resources\SourceHanSans CN REGULAR.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>

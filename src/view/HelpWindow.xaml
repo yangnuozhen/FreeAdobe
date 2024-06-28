@@ -19,9 +19,9 @@
 
         </Button>
 
-        <Label x:Name="lbTitle" Content="帮助" Margin="18,4,18,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Source Han Sans SC" FontWeight="Bold" Foreground="#FFE1E1E1" FontSize="14"/>
-        <TextBox x:Name="tbContent" HorizontalAlignment="Left" Margin="42,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="195" Width="364" Background="#FF404040" Focusable="True" FontFamily="Source Han Sans SC Medium" SelectionBrush="#FFDDDDDD" Foreground="White"/>
-        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Margin="276,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnOk_Click" FontFamily="Source Han Sans SC Normal" Background="#FF5B5B5B" Foreground="White" />
-        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="99,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnCancel_Click" FontFamily="Source Han Sans SC Normal" BorderBrush="#FFE3E3E3" Background="#FF5B5B5B" Foreground="White"/>
+        <Label x:Name="lbTitle" Content="帮助" Margin="18,4,18,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontFamily="Source Han Sans CN" FontWeight="Bold" Foreground="#FFE1E1E1" FontSize="14"/>
+        <TextBox x:Name="tbContent" HorizontalAlignment="Left" Margin="42,38,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="195" Width="364" Background="#FF404040" Focusable="True" FontFamily="Source Han Sans CN" SelectionBrush="#FFDDDDDD" Foreground="White"/>
+        <Button x:Name="btnOk" Content="确定" HorizontalAlignment="Left" Margin="276,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnOk_Click" FontFamily="Source Han Sans CN" Background="#FF5B5B5B" Foreground="White" />
+        <Button x:Name="btnCancel" Content="取消" HorizontalAlignment="Left" Margin="99,254,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Height="25" Click="btnCancel_Click" FontFamily="Source Han Sans CN" BorderBrush="#FFE3E3E3" Background="#FF5B5B5B" Foreground="White"/>
     </Grid>
 </Window>

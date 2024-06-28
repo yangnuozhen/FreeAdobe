@@ -31,14 +31,14 @@
                 </Button>
             </Grid>
             <Grid Width="820" Margin="80 60 0 60">
-                <ListBox x:Name="lbProduct" HorizontalAlignment="Stretch" ItemStringFormat="{Binding AdobeProductBean}" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" FontFamily="Source Han Sans SC Medium" Background="#FF323232" Foreground="White" BorderBrush="{x:Null}" d:ItemsSource="{d:SampleData ItemCount=5}" >
+                <ListBox x:Name="lbProduct" HorizontalAlignment="Stretch" ItemStringFormat="{Binding AdobeProductBean}" BorderThickness="0" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Visible" ScrollViewer.CanContentScroll="True" FontFamily="Source Han Sans CN" Background="#FF323232" Foreground="White" BorderBrush="{x:Null}" d:ItemsSource="{d:SampleData ItemCount=5}" >
 
                     <ListBox.ItemTemplate>
 
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal" Margin="20 10 0 10" Height="35">
                                 <Image Source="{Binding Icon}"></Image>
-                                <Label Content="{Binding Name}" VerticalContentAlignment="Center" FontSize="16" FontWeight="Bold" Width="240" Foreground="White" FontFamily="Source Han Sans SC" ></Label>
+                                <Label Content="{Binding Name}" VerticalContentAlignment="Center" FontSize="16" FontWeight="Bold" Width="240" Foreground="White" FontFamily="Source Han Sans CN" ></Label>
                                 <Label Content="{Binding Desc}" VerticalContentAlignment="Center" FontSize="12" Width="300" Foreground="#FFD9D9D9"></Label>
                                 <Button Content="优化" Width="80"  Margin="5" BorderThickness="0" Background="#4285f4" Foreground="White" Click="btnPatch_Click"/>
                                 <Button Content="启动" Width="80"  Margin="5" BorderThickness="0" Background="#4285f4" Foreground="White" Click="btnLaunch_Click"/>
@@ -51,7 +51,7 @@
                 </ListBox>
 
             </Grid>
-            <Label FontSize="16" Content="Re:Free Adobe V2.2" HorizontalAlignment="Left" Margin="415,2,0,0" VerticalAlignment="Top" FontFamily="Source Han Sans SC" FontWeight="Bold" Foreground="#FFCDCDCD"/>
+            <Label FontSize="16" Content="Re:Free Adobe V2.2" HorizontalAlignment="Left" Margin="415,2,0,0" VerticalAlignment="Top" FontFamily="Source Han Sans CN" FontWeight="Bold" Foreground="#FFCDCDCD"/>
             <Button x:Name="btnClose" HorizontalAlignment="Left" Margin="878,8,0,0" VerticalAlignment="Top" Width="15" BorderThickness="0" Padding="0" Height="15" Click="btnClose_Click" Background="{x:Null}">
 
                 <StackPanel Width="15" Height="15">
@@ -64,8 +64,8 @@
                     <Image x:Name="image" Width="15" Height="15" Source="/resources/minus.png"/>
                 </StackPanel>
             </Button>
-            <Label Content="@从来不想-亦泽 | 复活版 by Aunt Studio" HorizontalAlignment="Left" Margin="377,563,0,0" VerticalAlignment="Top" Padding="0" FontFamily="Source Han Sans SC Normal" Background="Transparent" Foreground="#FFDFDFDF" HorizontalContentAlignment="Center"/>
-            <Button Content="Homepage" FontWeight="Bold" Foreground="#2C974B" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="786,555,0,0" VerticalAlignment="Top" Width="83" Height="33" Click="btnLogo_Click" FontFamily="Source Han Sans SC" FontSize="14"/>
+            <Label Content="@从来不想-亦泽 | 复活版 by Aunt Studio" HorizontalAlignment="Left" Margin="377,563,0,0" VerticalAlignment="Top" Padding="0" FontFamily="Source Han Sans CN" Background="Transparent" Foreground="#FFDFDFDF" HorizontalContentAlignment="Center"/>
+            <Button Content="Homepage" FontWeight="Bold" Foreground="#2C974B" BorderThickness="0" Background="Transparent" HorizontalAlignment="Left" Margin="786,555,0,0" VerticalAlignment="Top" Width="83" Height="33" Click="btnLogo_Click" FontFamily="Source Han Sans CN" FontSize="14"/>
 
 
         </Grid>

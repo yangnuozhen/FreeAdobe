@@ -46,7 +46,7 @@ namespace ReFreeAdobe.src.model
         {
             get
             {
-                return AdobePatchUtil.AdobeInstallPath + "/" + relLaunchPath;
+                return System.IO.Path.Combine(AdobePatchUtil.AdobeInstallPath, relLaunchPath);
             }
         }
     }

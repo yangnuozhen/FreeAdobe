@@ -22,7 +22,7 @@
 
 
                 </Button>
-                <Button x:Name="btnSetting" Width="30" Height="30" Margin="0,420,0,0" BorderThickness="0" Click="btnSetting_Click" Background="{x:Null}">
+                <Button x:Name="btnSetting" Width="30" Height="30" Margin="24,495,23,75" BorderThickness="0" Click="btnSetting_Click" Background="{x:Null}">
                     <StackPanel>
                         <Image Height="24" Width="24" Source="/resources/settings.png" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </StackPanel>
